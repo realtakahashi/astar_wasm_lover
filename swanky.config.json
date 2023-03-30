@@ -24,8 +24,8 @@
       "deployments": [],
       "language": "ink",
       "build": {
-        "timestamp": 1680086556681,
-        "artifactsPath": "artifacts/astar_wasm_lover/1680086556681"
+        "timestamp": 1680142970145,
+        "artifactsPath": "artifacts/astar_wasm_lover/1680142970145"
       }
     }
   },

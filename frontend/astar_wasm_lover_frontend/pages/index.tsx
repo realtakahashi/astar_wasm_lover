@@ -150,6 +150,8 @@ const Home: NextPage = () => {
               {typeof messageList !== "undefined"
                 ? messageList.map((loverInfo) => {
                     return (
+                      <>
+                      <div key={loverInfo.name}></div>
                       <tr>
                         <td className="border border-blue-900 px-2 py-2">
                           {loverInfo.id}
@@ -167,6 +169,7 @@ const Home: NextPage = () => {
                           {loverInfo.address}
                         </td>
                       </tr>
+                      </>
                     );
                   })
                 : ""}
